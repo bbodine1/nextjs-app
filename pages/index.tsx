@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import logo from '../public/vercel.svg'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.logo}>
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+        <Image src={logo} alt="Vercel Logo" width={72} height={16} />
         </div>
 
         <h1 className={styles.title}>
