@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.logo}>
-          <Image src="./vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          <Image src="../vercel.svg" alt="Vercel Logo" width={72} height={16} />
         </div>
 
         <h1 className={styles.title}>
